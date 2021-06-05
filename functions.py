@@ -42,3 +42,12 @@ def second_parent(num):
         return first_child
     else:
         return second_child
+
+
+if __name__ == '__main__':
+    print(add_one(2))
+    print(greet_bob(say_hello))
+    print(greet_bob(be_awesome))
+    parent()
+    first = second_parent(1)
+    second = second_parent(2)
